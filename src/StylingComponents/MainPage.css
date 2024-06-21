@@ -15,7 +15,7 @@ body{
 .TitleAbout{
     font-family:'Jost', 'Times New Roman', Times, serif;
     font-size: 40px;
-    color: var(--text-color);
+    color: var(--text-color);  
     position: relative;
     text-decoration: none;
     cursor: pointer;

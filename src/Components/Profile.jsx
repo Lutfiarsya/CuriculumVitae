@@ -3,7 +3,7 @@ import Github from "../Assets/Github.png"
 import LinkedIn from "../Assets/Linkedin.png"
 import Instagram from "../Assets//Instagram.png"
 
-import ProfilePicture from "../Assets/PP.jpg"
+import ProfilePicture from "../Assets/PP.jpeg"
 const Profile = () => {
     const HandleClick = () => {
         const Gmail = "lutfiarsya34@gmail.com";
