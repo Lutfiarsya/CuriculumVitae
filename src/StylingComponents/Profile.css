@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&display=swap');
+
+.PageProfile{
+    background-color: var(--Primary-color);
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.ProfilePicture{
+    border: transparent;
+    border-radius: 120px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.Name{
+    color:  var(--text-color);
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: "Jost", 'Times New Roman', Times, serif;
+}
+
+.SocialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.Icon{
+    filter: brightness(0) invert(1);
+    opacity: 0.5;
+    background-color: transparent;
+}
+
+
+.Icon:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.2s;
+}
+
+
+.Contact{
+    margin-top: 60px;
+    font-size: 15px;
+    width: 150px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    border: transparent;
+    border-radius: 30px;
+    font-family: 'lexend', 'Times New Roman', Times, serif;
+}
+
+.Contact:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.Gmail{
+    color: var(--text-color);
+    text-decoration: none;
+}

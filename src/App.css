@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+ --Background-color : #686D76;
+ --Primary-color : #373A40;
+ --secondary-color: #DC5F00;
+ --text-color: #fff;
+}
+
+.App{
+  display: flex;
+  flex-direction: row;
+}
+
+::-webkit-scrollbar{
+  overflow: hidden;
+}

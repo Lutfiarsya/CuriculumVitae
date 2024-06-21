@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&display=swap');
+
+
+.MainPage{
+    margin-left: 37%;
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}   
+
+body{
+    background-color: var(--Background-color);
+}
+
+.TitleAbout{
+    font-family:'Jost', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: var(--text-color);
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.TitleAbout::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px; 
+    background-color:var(--text-color); 
+    transition: width 0.3s ease-in-out; 
+}
+
+.TitleAbout:hover::after{
+    width: 25%;
+}
+
+
+.Description{
+    font-family: 'lexend', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: var(--text-color);
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.experience{
+    width: 400px;
+}
+
+
+.Education{
+    width: 400px;
+}
+
+.Information{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.TitleExperience{
+    font-family:'Jost', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: var(--text-color);
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.TitleExperience::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px; 
+    background-color:var(--text-color); 
+    transition: width 0.3s ease-in-out; 
+}
+
+.TitleExperience:hover::after{
+    width: 55%;
+}
+
+.TitleEducation{
+    font-family:'Jost', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: var(--text-color);
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.TitleEducation::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px; 
+    background-color:var(--text-color); 
+    transition: width 0.3s ease-in-out; 
+}
+
+.TitleEducation:hover::after{
+    width: 50%;
+}
+
+.TitlePersonalProject{
+    font-family:'Jost', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: var(--text-color);
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.TitlePersonalProject::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px; 
+    background-color:var(--text-color); 
+    transition: width 0.3s ease-in-out; 
+}
+
+.TitlePersonalProject:hover::after{
+    width: 40%;
+}
+
+.TitleSkills{
+    font-family:'Jost', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: var(--text-color);
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.TitleSkills::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px; 
+    background-color:var(--text-color); 
+    transition: width 0.3s ease-in-out; 
+}
+
+.TitleSkills:hover::after{
+    width: 14%;
+}
+
+
+.DescriptionSize{
+    width: 350px;
+
+}
+
+.Date{
+    color: var(--text-color);
+    margin-top: 20px;
+    font-family: 'lexend','Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.Work{
+    color: var(--text-color);
+    margin-top: 2px;
+    font-family: 'Jost', 'Times New Roman', Times, serif;
+}
+
+.SecondPage{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.ProjectPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: -90px;
+}
+
+.BorderProject{
+    border: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.list{
+    color: var(--text-color);
+    font-family: 'lexend', 'Times New Roman', Times, serif;
+    margin-left: 20px;
+ 
+}
+
+.SkillPage{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.SecondaryPage{
+    margin-top: 20px;
+}
+
+.SkillsPage{
+    margin-left: 10px;
+}
+
+.list2{
+    color: var(--text-color);
+    font-family: 'lexend', 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: -20px;
+}
+
+#Hardskills{
+    margin-top: 20px;
+}
