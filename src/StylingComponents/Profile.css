@@ -2,22 +2,15 @@
 
 .PageProfile{
     background-color: var(--Primary-color);
-    width: 35%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: fixed;
-    margin: 0;
-    padding: 0;
     overflow: auto;
+    margin: 0;
 }
 
 .ProfilePicture{
     border: transparent;
     border-radius: 120px;
-    margin-top: 80px;
-    margin-left: 80px;
 }
 
 .Name{
@@ -32,8 +25,6 @@
     flex-direction: row;
     justify-content: space-evenly;
     width: 70%;
-    margin: auto;
-    margin-top: 30px;
 }
 
 
@@ -52,7 +43,6 @@
 
 
 .Contact{
-    margin-top: 60px;
     font-size: 15px;
     width: 150px;
     padding: 10px;

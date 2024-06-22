@@ -19,16 +19,16 @@ const Profile = () => {
 
     return(
 <>
-        <div className="PageProfile">
+        <div className="PageProfile relative md:fixed w-full md:w-1/3 p-6 md:p-0 items-center md:h-full h-1/2">
             <section className="Profile">
                 <img
                     src={ProfilePicture}
                     width={200}
                     height={200}
-                    className="ProfilePicture"
+                    className="ProfilePicture md:mt-20 mt-4 md:ml-20 ml-16"
                 />
                 <h1 className="Name">Luthfie Arsya Darmaputra</h1>
-                <div className="SocialMedia">
+                <div className="SocialMedia md:mt-7 mt-2 m-auto">
                     <a href="https://github.com/Lutfiarsya">
                         <img 
                             src={Github}
@@ -56,7 +56,7 @@ const Profile = () => {
                 </div>
             </section>
             <section>
-                <button onClick={HandleClick} className="Contact">
+                <button onClick={HandleClick} className="Contact md:mt-14 mt-6">
                     <p className="Gmail">
                       Let's Talk  
                     </p>

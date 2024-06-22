@@ -2,7 +2,6 @@
 
 
 .MainPage{
-    margin-left: 37%;
     margin-top: 30px;
     margin-right: 5px;
     margin-bottom: 30px;
@@ -26,14 +25,9 @@ body{
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 0;
     height: 3px; 
     background-color:var(--text-color); 
     transition: width 0.3s ease-in-out; 
-}
-
-.TitleAbout:hover::after{
-    width: 25%;
 }
 
 
@@ -55,10 +49,7 @@ body{
 }
 
 .Information{
-    display: flex;
-    flex-direction: row;
     margin-top: 20px;
-    justify-content: space-between;
 }
 
 .TitleExperience{
@@ -75,15 +66,11 @@ body{
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 0;
     height: 3px; 
     background-color:var(--text-color); 
     transition: width 0.3s ease-in-out; 
 }
 
-.TitleExperience:hover::after{
-    width: 55%;
-}
 
 .TitleEducation{
     font-family:'Jost', 'Times New Roman', Times, serif;
@@ -99,15 +86,11 @@ body{
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 0;
     height: 3px; 
     background-color:var(--text-color); 
     transition: width 0.3s ease-in-out; 
 }
 
-.TitleEducation:hover::after{
-    width: 50%;
-}
 
 .TitlePersonalProject{
     font-family:'Jost', 'Times New Roman', Times, serif;
@@ -123,14 +106,9 @@ body{
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 0;
     height: 3px; 
     background-color:var(--text-color); 
     transition: width 0.3s ease-in-out; 
-}
-
-.TitlePersonalProject:hover::after{
-    width: 40%;
 }
 
 .TitleSkills{
@@ -147,15 +125,11 @@ body{
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 0;
     height: 3px; 
     background-color:var(--text-color); 
     transition: width 0.3s ease-in-out; 
 }
 
-.TitleSkills:hover::after{
-    width: 14%;
-}
 
 
 .DescriptionSize{
@@ -172,7 +146,6 @@ body{
 
 .Work{
     color: var(--text-color);
-    margin-top: 2px;
     font-family: 'Jost', 'Times New Roman', Times, serif;
 }
 
@@ -182,16 +155,9 @@ body{
     flex-direction: column;
 }
 
-.ProjectPage{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: -90px;
-}
 
 .BorderProject{
     border: none;
-    padding: 10px;
     width: 300px;
     border-radius: 20px;
 }
@@ -221,9 +187,7 @@ body{
     color: var(--text-color);
     font-family: 'lexend', 'Times New Roman', Times, serif;
     margin-left: 20px;
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    column-gap: -20px;
+    list-style:circle;
 }
 
 #Hardskills{

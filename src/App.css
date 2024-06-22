@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *{
   margin: 0;
   padding: 0;
@@ -9,11 +13,6 @@
  --Primary-color : #373A40;
  --secondary-color: #DC5F00;
  --text-color: #fff;
-}
-
-.App{
-  display: flex;
-  flex-direction: row;
 }
 
 ::-webkit-scrollbar{
